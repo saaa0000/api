@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Criar Usuário</title>
+</head>
+
+<body>
+
+    <div class="container mt-4">
+
+        <h1>Criar Usuário</h1>
+
+        <form>
+
+            <div class="mb-3">
+                <label class="form-label">Nome</label>
+
+                <input
+                    type="text"
+                    id="usuario_nome"
+                    class="form-control"
+                    required>
+            </div>
+
+
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+
+                <input
+                    type="email"
+                    id="usuario_email"
+                    class="form-control"
+                    required>
+            </div>
+
+
+            <div class="mb-3">
+                <label class="form-label">Idade</label>
+
+                <input
+                    type="number"
+                    id="usuario_idade"
+                    class="form-control"
+                    required>
+            </div>
+
+
+            <div class="mb-3">
+                <label class="form-label">Altura</label>
+
+                <input
+                    type="number"
+                    step="0.01"
+                    id="usuario_altura"
+                    class="form-control"
+                    required>
+            </div>
+
+
+            <button
+                type="button"
+                class="btn btn-success"
+                onclick="criarUsuario()">
+
+                Cadastrar
+
+            </button>
+
+            <a
+                href="usuarios.html"
+                class="btn btn-secondary">
+
+                Voltar
+
+            </a>
+
+        </form>
+
+    </div>
+
+    <script src="criarUsuario.js"></script>
+
+</body>
+
+</html>

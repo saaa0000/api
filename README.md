@@ -1,3 +1,4 @@
+nova branch com a versão antiga.
 # API Organizada — CRUD Usuários, Produtos e Pedidos
 
 Projeto dividido em backend (Flask + SQLAlchemy) e frontend (HTML/JS estático).
